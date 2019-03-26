@@ -37,7 +37,7 @@ class Student
       FROM students
       WHERE grade = ? 
     SQL
-    db[:conn].execute(sql,9).map do |row|
+    DB[:conn].execute(sql,9).map do |row|
       self.new_from_db(row)
     end
   end 
