@@ -47,9 +47,9 @@ class Student
       FROM students
       WHERE grade < ?
     SQL
-    DB[:conn], execute(sql,12).map do |row|
-      self.new_from_db(row)
-    end 
+    # DB[:conn], execute(sql,12).map do |row|
+    #   self.new_from_db(row)
+    # end 
   end 
   def save
     sql = <<-SQL
