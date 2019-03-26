@@ -2,9 +2,11 @@ require 'pry'
 class Student
   attr_accessor :id, :name, :grade
 
-  def self.new_from_db(row)
+  def self.new_from_db(row) #[1, "Pat", 12]
     new_student = self.new
-    binding.pry
+    new_student.id = row[0]
+    new_student.
+    new_student.
   end
 
   def self.all
