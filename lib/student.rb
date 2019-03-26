@@ -27,7 +27,7 @@ class Student
       WHERE name = ?
       LIMIT 1
     SQL
-    DB[:conn].execute(sql).map do |name|
+    DB[:conn].execute(sql).map do |row|
       
     end 
   end
