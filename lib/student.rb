@@ -99,3 +99,14 @@ class Student
     DB[:conn].execute(sql)
   end
 end
+
+SELECT
+FROM
+JOIN
+ ON
+WHERE (basic)
+GROUP BY (aggregate)
+HAVING (aggregate)
+ORDER BY (basic)
+LIMIT
+
